@@ -1,0 +1,537 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN">
+<html>
+
+  <head>
+
+  <script src="//cdn.optimizely.com/js/12345678.js"></script>
+
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type' />
+    <meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible' />
+    <meta content='width=device-width, initial-scale=1.0' name='viewport' />
+    <style type='text/css'>
+      /*<![CDATA[*/
+        /**************************************************************************************
+        * CSS to Keep External *
+        **************************************************************************************/
+        .ExternalClass { width: 100%; }
+        .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div { line-height: 100%; }
+        table td { border-collapse: collapse; }
+        body { width: 100% !important; -webkit-text-size-adjust: 100% !important; -ms-text-size-adjust: 100% !important; margin: 0 !important; padding: 0 !important; }
+        img { outline: none !important; text-decoration: none !important; -ms-interpolation-mode: bicubic !important; display:block !important;}
+        body { color: #747474 !important; font-family:  arial, helvetica, sans-serif !important; }
+        p {margin: 0 0 1.6em 0;}
+        h1 { color: #4A4A4A !important; font-family:  arial, helvetica, sans-serif !important; }
+        h2 { color: #4A4A4A !important; font-family:  arial, helvetica, sans-serif !important; }
+        h1 a:active { color: #527B2A !important; }
+        h2 a:active { color: #527B2A !important; }
+        h3 a:active { color: #527B2A !important; }
+        h4 a:active { color: #527B2A !important; }
+        h5 a:active { color: #527B2A !important; }
+        h6 a:active { color: #527B2A !important; }
+        h1 a:visited { color: #527B2A !important; }
+        h2 a:visited { color: #527B2A !important; }
+        h3 a:visited { color: #527B2A !important; }
+        h4 a:visited { color: #527B2A !important; }
+        h5 a:visited { color: #527B2A !important; }
+        h6 a:visited { color: #527B2A !important; }
+        a:visited { color: #527B2A !important; }
+        a:hover { color: #527B2A !important; text-decoration: underline !important;}
+        a:active { color: #527B2A !important; text-decoration: underline !important;}
+        a.text:link { color: #fc9a18 !important; text-decoration: none !important;}
+        a.text:active { color: #fc9a18 !important; text-decoration: none !important;}
+        a.text:visited { color: #fc9a18 !important; text-decoration: none !important;}
+        a.text:hover { color: #febd69 !important; text-decoration: none !important; }
+        /* Survey Button Hover Colors */
+        .button:hover {background: #febd69 !important; cursor: pointer !important; }
+        .button:visited {background: #fc9a18 !important; cursor: pointer !important; }
+        .button:active {background: #fc9a18 !important; cursor: pointer !important; }
+        .button a:link {color: #f9f9f9 !important; text-decoration: none !important;}
+        .button a:hover {color: #f9f9f9 !important; text-decoration: none !important;}
+        .button a:active {color: #f9f9f9 !important; text-decoration: none !important;}
+        .button a:visited {color: #f9f9f9 !important; text-decoration: none !important;}
+        .footer a:hover { text-decoration: none !important; }
+        .footer-small a:hover { text-decoration: underline !important; }
+        @media only screen and (max-device-width: 600px), only screen and (max-width: 600px) {
+          /* responsive tables */
+          table[id="body"] #templateSidebar, #templateBody{display:block !important; width: 100% !important; padding: 0px !important; margin-bottom: 20px;}
+          table[id="body"] #templateContainer{border-bottom: none !important;}
+          table[id="body"] #templateBody{float: right !important;
+          }
+          table[id="body"] #templateSidebar{float: left !important;
+          }
+          table[id="body"] .padding {display: none !important;}
+          /* Survey Button Mobile */
+          table[id="body"] .button {width: 100% !important; float: none !important; margin: 0 auto !important;
+          }
+          table[id="body"] [id="logo"] a { display: block !important; width: 100% !important; height: 	auto !important; }
+
+          table[id="body"] .button a {font-size: 38px !important;}
+          table[id="body"] { width: 100% !important; }
+          table[id="body"] h1.mobile-text { font-size: 35px !important;line-height: 1.2em !important;}
+          table[id="body"] h2.mobile-text { font-size: 34px !important;}
+          table[id="body"] p.mobile-text, ul.mobile-text { font-size: 30px !important; line-height: 1.5em !important;}
+          table[id="body"] p.center {text-align: center !important;
+          }
+          table[id="body"] td.mobile-padding {display: none !important; width: 0px;}
+          table[id="body"] .l-outie { padding: 0px !important; }
+          table[id="body"] .l-body-point, table[id="body"] .l-footer, table[id="body"] .l-wrap, table[id="body"] .l-full-bleed, table[id="body"] .media-obj, table[id="body"] .media-content, table[id="body"] .btn, table[id="body"] .btn td { width: 100% !important; }
+          table[id="body"] .l-body-point { border-top: none !important; border-right: none !important; border-left: none !important; }
+          table[id="body"] .l-full-bleed img { width: 100% !important; height: auto !important; display: block !important;}
+          table[id="body"] .l-pad > tbody > tr > td { padding: 0px !important; }
+          table[id="body"] .l-split { width: 100% !important; }
+          table[id="body"] .l-split + .l-split { margin-top: 32px !important; }
+          table[id="body"] .ill-notebook { width: 100% !important; height: 96px !important; }
+          table[id="body"] .footer { padding-right: 16px !important; padding-left: 16px !important; }
+          table[id="body"] .btn span { display: block !important; }
+          table[id="body"] a[href^="tel"], table[id="body"] a[href^="sms"] { text-decoration: none; color: #747474; pointer-events: none; cursor: default; }
+          .mobile-link table[id="body"] a[href^="tel"], .mobile-link table[id="body"] a[href^="sms"] { text-decoration: default; color: #f9f9f9 !important; pointer-events: auto; cursor: default; }
+          table[id="body"] .icon { padding: 0 22px 22px 0 !important; background-size: 56px 56px !important; }
+          table[id="body"] .icon img { width: 56px !important; height: 56px !important; display: block !important;}
+          table[id="body"] .media-content { padding: 0 0 22px 0 !important; }
+          table[id="body"] .media-content-var { padding: 0 0 22px 0 !important; } }
+        /* More Specific Targeting */
+        @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) { table[id="body"] a[href^="tel"], table[id="body"] a[href^="sms"] { text-decoration: none; color: #747474; /* or whatever your want */ pointer-events: none; cursor: default; }
+          .mobile-link table[id="body"] a[href^="tel"], .mobile-link table[id="body"] a[href^="sms"] { text-decoration: default; color: #747474 !important; pointer-events: auto; cursor: default; } }
+        @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) { table[id="body"] .l-banner img { display: none !important; }
+          table[id="body"] [id="logo"] { background: transparent url("http://hrmarketer.com/users/clients/employeescreeniq/2015/May/images/Marijuana.png") no-repeat center top !important;
+          background-size: 600px 300px !important; }
+          table[id="body"] [id="logo"] a { display: block !important; width: 600px !important; height: 	300px !important; }
+          table[id="body"] .icon { background-size: 82px 68px; width: 82px; height: 68px; }
+          table[id="body"] .icon img { display: none !important; }
+          table[id="body"] .icn-data { background-image: url("http://hrmarketer.com/users/clients/employeescreeniq/2015/May/images/data.png") !important; background-position: left top !important; background-repeat: no-repeat !important; }
+          table[id="body"] .icn-idcard { background-image: url("http://hrmarketer.com/users/clients/employeescreeniq/2015/May/images/idcard.png") !important; background-position: left top !important; background-repeat: no-repeat !important;}
+          table[id="body"] .icn-gift { background-image: url("http://hrmarketer.com/users/clients/employeescreeniq/2015/May/images/giftcard.png") !important; background-position: left top !important; background-repeat: no-repeat !important; }
+          table[id="body"] .arrow { background-image: url("http://hrmarketer.com/users/clients/employeescreeniq/2015/May/images/arrow.png") !important; background-position: right top; !important; background-repeat: no-repeat !important; background-size: 95px 95px; width: 95px; height: 95px;} }
+        @media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-device-width: 578px), only screen and (min-resolution: 144dpi) and (max-device-width: 578px), only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 578px), only screen and (min-resolution: 144dpi) and (max-width: 578px) {
+          table[id="body"] .icon { display: block; width: 82px !important; height: 68px !important; background-size: 82px 68px !important; }}
+      /*]]>*/
+    </style>
+  </head>
+
+  <body style="width: 100% !important; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; color: #747474; font-family:  Arial, Helvetica, sans-serif; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; background-color: #fDfDfD;"
+  bgcolor="#fDfDfD">
+    <!-- Outer table wrap -->
+    <table align="center" id="body" style="width: 100% !important; line-height: 100% !important; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; background-color: #fDfDfD; background-image: url('http://hrmarketer.com/users/clients/employeescreeniq/2015/May/images/background.png'); background-repeat: repeat; "
+    bgcolor="#fDfDfD" cellpadding="0" cellspacing="0">
+      <tr>
+        <td class="l-outie" style="width: 100%; -premailer-width: 100%; border-collapse: collapse; padding-top: 32px; padding-right: 0; padding-bottom: 64px; padding-left: 0; "
+        width="100%">
+
+          <!-- Inner Content table wrap -->
+          <table align="center" class="l-body-point" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; max-width: 600px; margin-top: 0; margin-right: auto; margin-bottom: 0; margin-left: auto; border-top-color: #e7e4e3; border-right-color: #e7e4e3; border-bottom-color: #e7e4e3; border-left-color: #e7e4e3; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; background-color: white;  "
+          bgcolor="white" width="600" cellpadding="0" cellspacing="0">
+            <tbody>
+              <tr>
+
+                <td class="l-wrap" width="600">
+
+                  <!-- Header Begins -->
+                  <table class="l-banner" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; max-width: 100%; width: 100%; background-color: #f9f9f9; border-radius: 4px; " bgcolor="#f9f9f9" width="100%" cellpadding="0" cellspacing="0">
+                    <tbody>
+                      <tr>
+                        <td align='center'>
+
+                              <table align="center" id="branding" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #f9f9f9;" bgcolor="#f9f9f9"
+                              cellpadding="0" cellspacing="0">
+                                <tbody>
+                                  <tr>
+                                    <td id="logo" style="text-align: center; border-collapse: collapse;" align="center">
+                                      <a href="http://www.employeescreen.com/" title="EmployeeScreenIQ's 6th Annual Background Screening Trends Survey" style="color: #f9f9f9; text-decoration: none;">
+                                        <img alt="EmployeeScreenIQ" border="0" height="300" width="600" src="http://hrmarketer.com/users/clients/employeescreeniq/2015/May/images/Marijuana.png"
+                                         style="outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; display: block; color: white; border-top-style: none; border-right-style: none; border-bottom-style: none; border-left-style: none;"
+                                        />
+                                      </a>
+                                    </td>
+                                  </tr>
+                                </tbody>
+                              </table>
+
+                          <!-- #branding -->
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <!-- End Header -->
+
+
+                  <!-- .l-banner -->
+                  <table class="ll-body-point" id="main" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; max-width: 100%; width: 100%; "
+                  width="100%" cellpadding="0" cellspacing="0">
+                    <tbody>
+                      <tr>
+                        <td>
+
+                          <!-- ////// Begin Content ////// -->
+                          <!-- .l-pad -->
+                          <table class="l-pad" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; max-width: 100%; width: 100%;"
+                          width="100%" cellpadding="0" cellspacing="0">
+                            <tbody>
+                              <tr>
+                                <td style="padding-bottom: 0px; background-color: #f9f9f9;"
+                                bgcolor="#f9f9f9">
+
+
+                                 <!-- Responsive Columns -->
+                                 <table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateContainer">
+                                   <tr>
+                                     <!-- Padding Left -->
+                                     <td align="left" valign="top" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 30px;" width="30">
+                                       <img src="http://hrmarketer.com/users/clients/employeescreeniq/2015/May/images/spacer.png" alt="Spacer" width="30px" height="1" hspace="0" vspace="0" />
+                                     </td>
+
+                                     <!-- Left Column -->
+                                     <td id="templateBody" align="left" valign="top" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;" width="100%">
+
+                                       <table  align="left" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%; " width="100%" cellpadding="0" cellspacing="0">
+                                         <!-- margin-h -->
+                                         <tr>
+                                         	<td height="20" bgcolor="#f9f9f9" style="border: none; width:inherit; height: 20px; background-color: #f9f9f9;">
+                                         		<img src="http://hrmarketer.com/users/clients/employeescreeniq/2015/May/images/spacer.png" alt="Spacer" width="1" height="20" hspace="0" vspace="0" style="display: block; height: 20px;" >
+                                         	</td>
+                                         </tr>
+                                         <!-- mobile-p -->
+                                         <tr>
+                                           <td class="mobile-p" align="left" valign="top" style="color: #404040; font-family: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 1.4em; font-weight: 100; text-align: left; ">
+                                           	Legalization in no way eliminates the many good reasons you should continue to screen employees and job candidates for marijuana. These reasons include the drug’s impacts on your employees’ productivity and health … your company’s health insurance costs … and your overall liability and workplace safety risks.
+                                           </td>
+                                         </tr>
+                                         <!-- margin-h -->
+                                         <tr>
+                                         	<td height="20" bgcolor="#f9f9f9" style="border: none; width:inherit; height: 20px; background-color: #f9f9f9;" >
+                                         		<img src="http://hrmarketer.com/users/clients/employeescreeniq/2015/May/images/spacer.png" alt="Spacer" width="1" height="20" hspace="0" vspace="0" style="display: block; height: 20px;" >
+                                         	</td>
+                                         </tr>
+                                         <!-- mobile-p -->
+                                         <tr>
+                                           <td class="mobile-p" align="left" valign="top" style="color: #404040; font-family: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 1.4em; font-weight: 100; text-align: left;">
+                                           		In fact, with so much at stake, your company’s drug policy is more important than ever. Download our new article, “Marijuana Legalization: Why It’s High Time You Reviewed Your Company’s Drug Policy,” to learn:
+                                           </td>
+                                         </tr>
+                                         <!-- margin-h -->
+                                         <tr>
+                                         	<td height="20" bgcolor="#f9f9f9" style="border: none; width:inherit; height: 20px; background-color: #f9f9f9;">
+                                         		<img src="http://hrmarketer.com/users/clients/employeescreeniq/2015/May/images/spacer.png" alt="Spacer" width="1" height="20" hspace="0" vspace="0" style="display: block; height: 20px;" >
+                                         	</td>
+                                         </tr>
+                                         <!-- mobile-ui -->
+                                         <tr>
+                                         	<td style="padding: 0;">
+                                         		<table cellspacing="0" cellpadding="0" width="100%">
+                                         			<tr>
+	                                         			<!-- margin-vertical -->
+			                                         <td class="v-margin" bgcolor="#f9f9f9" width="30" style="border: none; width:30px; height: 1px; background-color: #f9f9f9;">
+			                                         	<img src="http://hrmarketer.com/users/clients/employeescreeniq/2015/May/images/spacer.png" alt="Spacer" width="30" height="1" hspace="0" vspace="0" style="display: block; width: 30px;" >
+			                                         </td>
+                                         				<td class="mobile-ul" style="color: #4b9ee0; font-family: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 1.4em; font-weight: 100; text-align: left; width:24px" valign="top" align="left" width="24">
+                                         				<img src="http://hrmarketer.com/users/clients/employeescreeniq/2015/May/images/Check.png" alt="Spacer" align="left" width="16" height="16" hspace="0" vspace="0" style="display: block; height: 16px;" >
+
+                                         				</td>
+                                                <td class="mobile-li" align="left" valign="top" style="color: #404040; font-family: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 1.4em; font-weight: 100; text-align: left;">
+	                                                  	The implications of the latest legalization data and trends.
+
+                                         				</td>
+                                         				<!-- margin-vertical -->
+			                                         <td class="v-margin" bgcolor="#f9f9f9" width="60" style="border: none; width:60px; height: 1px; background-color: #f9f9f9;">
+			                                         	<img src="http://hrmarketer.com/users/clients/employeescreeniq/2015/May/images/spacer.png" alt="Spacer" width="60" height="1" hspace="0" vspace="0" style="display: block; width: 60px;" >
+			                                         </td>
+                                         			</tr>
+                                         		</table>
+                                         	</td>
+                                         </tr>
+                                         <!-- margin-h -->
+                                         <tr>
+                                         	<td height="10" bgcolor="#f9f9f9" style="border: none; width:inherit; height: 10px; background-color: #f9f9f9;">
+                                         		<img src="http://hrmarketer.com/users/clients/employeescreeniq/2015/May/images/spacer.png" alt="Spacer" width="1" height="10" hspace="0" vspace="0" style="display: block; height: 10px;" >
+                                         	</td>
+                                         </tr>
+                                         <!-- mobile-ui -->
+                                         <tr>
+                                         	<td style="padding: 0;">
+                                         		<table cellspacing="0" cellpadding="0" width="100%">
+                                         			<tr>
+	                                         			<!-- margin-vertical -->
+			                                         <td class="v-margin" bgcolor="#f9f9f9" width="30" style="border: none; width:30px; height: 1px; background-color: #f9f9f9;">
+			                                         	<img src="http://hrmarketer.com/users/clients/employeescreeniq/2015/May/images/spacer.png" alt="Spacer" width="30" height="1" hspace="0" vspace="0" style="display: block; width: 30px;" >
+			                                         </td>
+                                         				<td class="mobile-ul" style="color: #4b9ee0; font-family: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 1.4em; font-weight: 100; text-align: left; width:24px" valign="top" align="left" width="24">
+                                         				<img src="http://hrmarketer.com/users/clients/employeescreeniq/2015/May/images/Check.png" alt="Spacer" align="left" width="16" height="16" hspace="0" vspace="0" style="display: block; height: 16px;" >
+
+                                         				</td>
+                                                <td class="mobile-li" align="left" valign="top" style="color: #404040; font-family: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 1.4em; font-weight: 100; text-align: left;">
+	                                                 How the courts have ruled in several recent drug cases involving employers.
+                                         				</td>
+                                         				<!-- margin-vertical -->
+			                                         <td class="v-margin" bgcolor="#f9f9f9" width="60" style="border: none; width:60px; height: 1px; background-color: #f9f9f9;">
+			                                         	<img src="http://hrmarketer.com/users/clients/employeescreeniq/2015/May/images/spacer.png" alt="Spacer" width="60" height="1" hspace="0" vspace="0" style="display: block; width: 60px;" >
+			                                         </td>
+                                         			</tr>
+                                         		</table>
+                                         	</td>
+                                         </tr>
+                                         <!-- margin-h -->
+                                         <tr>
+                                         	<td height="10" bgcolor="#f9f9f9" style="border: none; width:inherit; height: 10px; background-color: #f9f9f9;">
+                                         		<img src="http://hrmarketer.com/users/clients/employeescreeniq/2015/May/images/spacer.png" alt="Spacer" width="1" height="10" hspace="0" vspace="0" style="display: block; height: 10px;" >
+                                         	</td>
+                                         </tr>
+                                         <!-- mobile-ui -->
+                                         <tr>
+                                         	<td style="padding: 0;">
+                                         		<table cellspacing="0" cellpadding="0" width="100%">
+                                         			<tr>
+	                                         			<!-- margin-vertical -->
+			                                         <td class="v-margin" bgcolor="#f9f9f9" width="30" style="border: none; width:30px; height: 1px; background-color: #f9f9f9;">
+			                                         	<img src="http://hrmarketer.com/users/clients/employeescreeniq/2015/May/images/spacer.png" alt="Spacer" width="30" height="1" hspace="0" vspace="0" style="display: block; width: 30px;" >
+			                                         </td>
+                                         				<td class="mobile-ul" style="color: #4b9ee0; font-family: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 1.4em; font-weight: 100; text-align: left; width:24px" valign="top" align="left" width="24">
+                                         				<img src="http://hrmarketer.com/users/clients/employeescreeniq/2015/May/images/Check.png" alt="Spacer" align="left" width="16" height="16" hspace="0" vspace="0" style="display: block; height: 16px;" >
+
+                                         				</td>
+                                                <td class="mobile-li" align="left" valign="top" style="color: #404040; font-family: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 1.4em; font-weight: 100; text-align: left;">
+	                                                  How the courts have ruled in several recent drug cases involving employers.
+                                         				</td>
+                                         				<!-- margin-vertical -->
+			                                         <td class="v-margin" bgcolor="#f9f9f9" width="60" style="border: none; width:60px; height: 1px; background-color: #f9f9f9;">
+			                                         	<img src="http://hrmarketer.com/users/clients/employeescreeniq/2015/May/images/spacer.png" alt="Spacer" width="60" height="1" hspace="0" vspace="0" style="display: block; width: 60px;" >
+			                                         </td>
+                                         			</tr>
+                                         		</table>
+                                         	</td>
+                                         </tr>
+                                         <!-- margin-h -->
+                                         <tr>
+                                         	<td height="10" bgcolor="#f9f9f9" style="border: none; width:inherit; height: 10px; background-color: #f9f9f9;">
+                                         		<img src="http://hrmarketer.com/users/clients/employeescreeniq/2015/May/images/spacer.png" alt="Spacer" width="1" height="10" hspace="0" vspace="0" style="display: block; height: 10px;" >
+                                         	</td>
+                                         </tr>
+                                         <!-- mobile-ui -->
+                                         <tr>
+                                         	<td style="padding: 0;">
+                                         		<table cellspacing="0" cellpadding="0" width="100%">
+                                         			<tr>
+	                                         			<!-- margin-vertical -->
+			                                         <td class="v-margin" bgcolor="#f9f9f9" width="30" style="border: none; width:30px; height: 1px; background-color: #f9f9f9;">
+			                                         	<img src="http://hrmarketer.com/users/clients/employeescreeniq/2015/May/images/spacer.png" alt="Spacer" width="30" height="1" hspace="0" vspace="0" style="display: block; width: 30px;" >
+			                                         </td>
+                                         				<td class="mobile-ul" style="color: #4b9ee0; font-family: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 1.4em; font-weight: 100; text-align: left; width:24px" valign="top" align="left" width="24">
+                                         				<img src="http://hrmarketer.com/users/clients/employeescreeniq/2015/May/images/Check.png" alt="Spacer" align="left" width="16" height="16" hspace="0" vspace="0" style="display: block; height: 16px;" >
+
+                                         				</td>
+                                                <td class="mobile-li" align="left" valign="top" style="color: #404040; font-family: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 1.4em; font-weight: 100; text-align: left;">
+                                                    And how your company should respond to the legalization of marijuana.
+
+                                         				</td>
+                                         				<!-- margin-vertical -->
+			                                         <td class="v-margin" bgcolor="#f9f9f9" width="60" style="border: none; width:60px; height: 1px; background-color: #f9f9f9;">
+			                                         	<img src="http://hrmarketer.com/users/clients/employeescreeniq/2015/May/images/spacer.png" alt="Spacer" width="60" height="1" hspace="0" vspace="0" style="display: block; width: 60px;" >
+			                                         </td>
+                                         			</tr>
+                                         		</table>
+                                         	</td>
+                                         </tr>
+                                         <!-- margin -->
+                                         <tr>
+                                         	<td height="20" bgcolor="#f9f9f9" style="border: none; width:inherit; height: 20px; background-color: #f9f9f9;">
+                                         		<img src="http://hrmarketer.com/users/clients/employeescreeniq/2015/May/images/spacer.png" alt="Spacer" width="1" height="20" hspace="0" vspace="0" style="display: block; height: 20px;" >
+                                         	</td>
+                                         </tr>
+                                         <tr>
+	                                         <!-- mobile-p -->
+	                                         <td class="mobile-p" align="left" valign="top" style="color: #404040; font-family: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 1.4em; font-weight: 100; text-align: left;">
+		                                       		In short, a drug policy is a terrible thing to waste.
+	                                         </td>
+                                         </tr>
+                                         <!-- margin-h -->
+                                         <tr>
+                                         	<td height="60" bgcolor="#f9f9f9" style="border: none; width:inherit; height: 60px; background-color: #f9f9f9;">
+                                         		<img src="http://hrmarketer.com/users/clients/employeescreeniq/2015/May/images/spacer.png" alt="Spacer" width="1" height="60" hspace="0" vspace="0" style="display: block; height: 60px;" >
+                                         	</td>
+                                         </tr>
+                                         <tr>
+
+	                                         <td style="padding: 0;">
+		                                       		<!-- Begin Button -->
+		                                       		<table style="width: 100%; text-align: left; overflow: hidden; vertical-align: top; border-collapse: collapse; border-spacing: 0; float: left;">
+		                                       			<tbody>
+		                                       				<tr style="text-align: left; vertical-align: top;" align="left">
+							                                     <!-- margin-vertical -->
+					                                         <td class="v-margin" bgcolor="#f9f9f9" width="60" style="border: none; width:60px; height: 1px; background-color: #f9f9f9;">
+					                                         	<img src="http://hrmarketer.com/users/clients/employeescreeniq/2015/May/images/spacer.png" alt="Spacer" width="60" height="1" hspace="0" vspace="0" style="display: block; width: 60px;" >
+					                                         </td>
+		                                       					<td class="button" valign="middle"  onclick="location.href='http://54.241.138.248/ESIQ_Marijuana.html'" align="center" valign="top" bgcolor="#fc9a18" style="margin: 0px; !important; border-radius: 4px; border-collapse: collapse !important; background-color: #fc9a18;">
+		                                       						<br/ >
+		                                       						<a style="vertical-align: middle; color: #f9f9f9 !important; line-height: 100%; text-align: center; font-family:  arial, helvetica, sans-serif; font-size: 24px; font-weight: bold; text-decoration: none !important;" href="http://54.241.138.248/ESIQ_Marijuana.html" target="_blank">
+		                                       							Download the free report.
+		                                       						</a>
+		                                       						<br/ >
+		                                       						<br/ >
+		                                       					</td>
+		                                       					<!-- margin-vertical -->
+					                                         <td class="v-margin" bgcolor="#f9f9f9" width="60" style="border: none; width:60px; height: 1px; background-color: #f9f9f9;">
+					                                         		<img src="http://hrmarketer.com/users/clients/employeescreeniq/2015/May/images/spacer.png" alt="Spacer" width="60" height="1" hspace="0" vspace="0" style="display: block; width: 60px;" >
+					                                         </td>
+		                                       				</tr>
+		                                       			</tbody>
+		                                       		</table>
+		                                       		<!-- End Button -->
+	                                         </td>
+                                         </tr>
+                                         <!-- margin-h -->
+                                         <tr>
+                                         	<td height="30" bgcolor="#f9f9f9" style="border: none; width:inherit; height: 30px; background-color: #f9f9f9;">
+                                         		<img src="http://hrmarketer.com/users/clients/employeescreeniq/2015/May/images/spacer.png" alt="Spacer" width="1" height="30" hspace="0" vspace="0" style="display: block; height: 30px;" >
+                                         	</td>
+                                         </tr>
+                                     	</table>
+
+                                     </td>
+
+
+
+                                     <!-- Right Column -->
+                                     <td id="templateSidebar" align="left" valign="top" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 190px;" width="190">
+
+                                       <table  style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%; background-color: #f9f9f9;"
+                                       width="100%" cellpadding="0" cellspacing="0">
+                                         <tr>
+                                           <td class="media l-full-bleed" style="vertical-align: top; border-collapse: collapse;"
+                                           valign="top">
+
+                                                                                        </td>
+                                         </tr>
+                                         <!-- Padding Top -->
+                                         <tr>
+                                           <td style="height: 20px; background-color: #f9f9f9;" bgcolor="#f9f9f9" height="20">
+                                             <img src="http://hrmarketer.com/users/clients/employeescreeniq/2015/May/images/spacer.png" alt="Spacer" width="1" height="20" hspace="0" vspace="0" />
+                                           </td>
+                                         </tr>
+                                         <tr>
+                                           <td class="media l-full-bleed" style="vertical-align: top; border-collapse: collapse;"
+                                           valign="top">
+
+
+
+                                           </td>
+                                         </tr>
+                                         <!-- Padding Top -->
+                                         <tr>
+                                           <td style="height: 20px; background-color: #f9f9f9;" bgcolor="#f9f9f9" height="20">
+                                             <img src="http://hrmarketer.com/users/clients/employeescreeniq/2015/May/images/spacer.png" alt="Spacer" width="1" height="20" hspace="0" vspace="0" />
+                                           </td>
+                                         </tr>
+
+                                        </table>
+
+                                     </td>
+
+                                     <!-- Padding Right -->
+                                     <td align="left" valign="top" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 30px;" width="30">
+                                       <img src="http://hrmarketer.com/users/clients/employeescreeniq/2015/May/images/spacer.png" alt="Spacer" width="30px" height="1" hspace="0" vspace="0" />
+                                     </td>
+                                   </tr>
+
+                                   <!-- Padding Bottom -->
+                                   <tr class="padding" >
+                                     <td colspan="5" style="height: 30px;" height="30">
+                                       <img src="http://hrmarketer.com/users/clients/employeescreeniq/2015/May/images/spacer.png" alt="Spacer" width="1" height="30" hspace="0" vspace="0" />
+                                     </td>
+                                   </tr>
+                                 </table>
+
+                                  <!-- .l-pad -->
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <!-- .l-pad -->
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <!-- .ll-body-point -->
+                  <!-- End Content -->
+                </td>
+                <!-- .l-wrap -->
+              </tr>
+            </tbody>
+          </table>
+          <!-- ////// End Content Wrap /////// -->
+
+          <!-- Begin Footer -->
+          <table align="center" class="footer" width="600" cellpadding="10" style="color: #747778;font-size: 11px;line-height: 15px;text-align: center;margin-left: auto;margin-right: auto;">
+            <tr>
+              <td>
+                <!-- Address -->
+                <p align="center" style="margin: 0px; padding: 0px; text-align: center; color: #222222; line-height: 20px; font-family:  Arial, Helvetica, sans-serif; font-size: 10px; font-weight: normal;">
+                <span style="font-family: arial,helvetica,sans-serif;"><a style="color: #5B8726; text-decoration: none;" href="http://employeescreen.com" target="_blank">EmployeeScreenIQ</a> | P.O. Box 22627 | Cleveland, OH 44122 | <a style="color: #5B8726; text-decoration: none;" href="mailto:info@employeescreen.com">info@employeescreen.com</a> | (800) 235-3954</span>
+                <span style="font-family: arial,helvetica,sans-serif;">&nbsp;</span></p>
+              </td>
+            </tr>
+          </table>
+          <!-- Social Sharing -->
+              <center>
+                 <table class="row" border="0" cellspacing="0" cellpadding="0">
+                    <tbody>
+                      <center>
+                        <tr>
+                          <td align="center">
+                            <img width="15" height="19" alt="" src="http://www.hrmarketer.com/users/clients/summit/shim.gif" style="display:block;" />
+                          </td>
+                          <td align="center">
+                            <a href="http://www.facebook.com/employeescreenIQ" target="_new">
+                            <img width="24" height="24" alt="Facebook" src="http://www.hrmarketer.com/users/clients/employeescreeniq/trends_survey/images/Facebook.png" border="0" vspace="0" hspace="3" style="display:block;" />
+                            </a>
+                          </td>
+                          <td align="center">
+                            <img width="15" height="19" alt="" src="http://www.hrmarketer.com/users/clients/summit/shim.gif" style="display:block;" />
+                          </td>
+                          <td align="center">
+                            <a href="http://www.linkedin.com/company/employeescreeniq?trk=hb_tab_compy_id_224748 " target="_new">
+                            <img width="24" height="24" alt="LinkedIn" src="http://www.hrmarketer.com/users/clients/employeescreeniq/trends_survey/images/LinkedIn.png" border="0" vspace="0" hspace="3" style="display:block;" />
+                            </a>
+                          </td>
+                          <td align="center">
+                            <img width="15" height="19" alt="" src="http://www.hrmarketer.com/users/clients/summit/shim.gif" style="display:block;" />
+                          </td>
+                          <td align="center">
+                            <a href="http://www.twitter.com/employeescreen" target="_new">
+                            <img width="24" height="24" alt="Twitter" src="http://www.hrmarketer.com/users/clients/employeescreeniq/trends_survey/images/Twitter.png" border="0" vspace="0" hspace="3" style="display:block;" />
+                            </a>
+                          </td>
+                          <td align="center">
+                            <img width="15" height="19" alt="" src="http://www.hrmarketer.com/users/clients/summit/shim.gif" style="display:block;" />
+                          </td>
+                          <td align="center">
+                            <a href="http://www.youtube.com/user/EmployeeScreenIQcle" target="_new">
+                            <img width="24" height="24" alt="YouTube" src="http://www.hrmarketer.com/users/clients/employeescreeniq/trends_survey/images/YouTube.png" border="0" vspace="0" hspace="3" style="display:block;" /></a>
+                          </td>
+                          <td align="center">
+                            <img width="15" height="19" alt="" src="http://www.hrmarketer.com/users/clients/summit/shim.gif" style="display:block;" />
+                          </td>
+                          <td align="center">
+                            <a href="http://www.employeescreen.com/iqblog/" target="_new"><img width="24" height="24" alt="Blog RSS" src="http://www.hrmarketer.com/users/clients/employeescreeniq/trends_survey/images/RSS.png" border="0" vspace="0" hspace="3" style="display:block;" />
+                            </a>
+                          </td>
+                          <td align="center">
+                            <img width="15" height="19" alt="" src="http://www.hrmarketer.com/users/clients/summit/shim.gif" style="display:block;" />
+                          </td>
+                        </tr>
+                        </center>
+                      </tbody>
+                    </table>
+                  </center>
+
+                </td>
+               </tr>
+             </tbody>
+          </table>
+          <!--end .footer-->
+          <!-- .l-body-point -->
+
+
+        </td>
+      </tr>
+    </table>
+  </body>
+
+</html>
